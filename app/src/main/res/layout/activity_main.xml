@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/showInterstitialAd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_mopub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/moPubBannerView"/>
+
     <com.mopub.mobileads.MoPubView
         android:id="@+id/moPubBannerView"
         android:layout_width="match_parent"
