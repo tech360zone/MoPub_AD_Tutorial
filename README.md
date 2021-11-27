@@ -11,6 +11,13 @@ So first video is all about MoPub banner ad here you can know about how you can 
 
 Now let's talk about MoPub banner ad, check the below link for detail video about MoPub interstitial ad.
 
-<a href="https://www.youtube.com/watch?v=ceAGFBtgbnQ&ab_channel=Tech360Zone">
-<img src="https://i.ibb.co/b251W3y/thumbnail.png">
+<a href="https://youtu.be/0Z7ho4rrmqA">
+<img src="https://i.ibb.co/vQmRG8g/thumbnail-main.png">
 </a>
+
+---------------------------------------------------------------------------------------------
+
+<h3>MOPUB DOCUMENTATION LINKS</h3>
+1. Android SDK: <a href="https://developers.mopub.com/publishers/android/">Link</a></br>
+2. Android Banner Ads: <a href="https://developers.mopub.com/publishers/android/banner/">Link</a></br>
+3. Android Interstitial Ads: <a href="https://developers.mopub.com/publishers/android/interstitial/">Link</a></br>
