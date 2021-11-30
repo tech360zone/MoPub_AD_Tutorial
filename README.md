@@ -15,9 +15,18 @@ Now let's talk about MoPub banner ad, check the below link for detail video abou
 <img src="https://i.ibb.co/vQmRG8g/thumbnail-main.png">
 </a>
 
+MoPub Native ad (Manual), check the below link for detail video about MoPub Native ad. <a href="https://youtu.be/f-ovindFOZo">Watch Now</a>
+
+<a href="https://youtu.be/f-ovindFOZo">
+<img src="https://i.ibb.co/5n1QNz7/thumbnail.png">
+</a>
+
 ---------------------------------------------------------------------------------------------
 
 <h3>MOPUB DOCUMENTATION LINKS</h3>
 1. Android SDK: <a href="https://developers.mopub.com/publishers/android/">Link</a></br>
 2. Android Banner Ads: <a href="https://developers.mopub.com/publishers/android/banner/">Link</a></br>
 3. Android Interstitial Ads: <a href="https://developers.mopub.com/publishers/android/interstitial/">Link</a></br>
+4. Android Native (AdPlacer) Ads: <a href="https://developers.mopub.com/publishers/android/native-adplacer/">Link</a></br>
+5. Android Native (RecyclerView) Ads: <a href="https://developers.mopub.com/publishers/android/native-recyclerview/">Link</a></br>
+6. Android Native (Manual) Ads: <a href="https://developers.mopub.com/publishers/android/native-manual/">Link</a></br>
