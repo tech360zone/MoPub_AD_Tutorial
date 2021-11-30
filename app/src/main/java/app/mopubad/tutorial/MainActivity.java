@@ -1,5 +1,6 @@
 package app.mopubad.tutorial;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
         binding.showInterstitialAd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, NativeActivity.class));
                 if (mInterstitial != null && mInterstitial.isReady()) {
                     mInterstitial.show();
                 } else {
@@ -86,5 +88,8 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
     @Override
     public void onInterstitialDismissed(MoPubInterstitial moPubInterstitial) {
         moPubInterstitial.load();
+
+        //Here you can also start a new activity
+//        startActivity(new Intent(MainActivity.this, NativeActivity.class));
     }
 }

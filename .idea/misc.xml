@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_native.xml" value="0.209375" />
+        <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/native_ad_layout.xml" value="0.209375" />
       </map>
     </option>
   </component>
