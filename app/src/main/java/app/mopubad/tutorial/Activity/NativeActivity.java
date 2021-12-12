@@ -1,4 +1,4 @@
-package app.mopubad.tutorial;
+package app.mopubad.tutorial.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,13 +8,13 @@ import com.mopub.common.MoPub;
 import com.mopub.common.SdkConfiguration;
 import com.mopub.common.SdkInitializationListener;
 import com.mopub.common.logging.MoPubLog;
-import com.mopub.mobileads.MoPubInterstitial;
 import com.mopub.nativeads.MoPubNative;
 import com.mopub.nativeads.MoPubStaticNativeAdRenderer;
 import com.mopub.nativeads.NativeAd;
 import com.mopub.nativeads.NativeErrorCode;
 import com.mopub.nativeads.ViewBinder;
 
+import app.mopubad.tutorial.R;
 import app.mopubad.tutorial.databinding.ActivityNativeBinding;
 
 public class NativeActivity extends AppCompatActivity {

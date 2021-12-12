@@ -1,4 +1,4 @@
-package app.mopubad.tutorial;
+package app.mopubad.tutorial.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.mopub.common.MoPub;
 import com.mopub.common.SdkConfiguration;
@@ -14,6 +15,7 @@ import com.mopub.mobileads.MoPubErrorCode;
 import com.mopub.mobileads.MoPubInterstitial;
 import com.mopub.mobileads.MoPubView;
 
+import app.mopubad.tutorial.R;
 import app.mopubad.tutorial.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements MoPubInterstitial.InterstitialAdListener {
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -44,6 +47,13 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
                 } else {
                     Toast.makeText(getApplicationContext(), "Not available.", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        binding.recyclerviewLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, RecyclerViewNativeAdActivity.class));
             }
         });
     }

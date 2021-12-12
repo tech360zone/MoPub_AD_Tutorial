@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <ImageView
         android:id="@+id/showInterstitialAd"
@@ -16,6 +16,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/moPubBannerView"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/recyclerviewLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/open_recyclerview"
+        app:layout_constraintEnd_toEndOf="@+id/showInterstitialAd"
+        app:layout_constraintStart_toStartOf="@+id/showInterstitialAd"
+        app:layout_constraintTop_toBottomOf="@+id/showInterstitialAd" />
 
     <com.mopub.mobileads.MoPubView
         android:id="@+id/moPubBannerView"

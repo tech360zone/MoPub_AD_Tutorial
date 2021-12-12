@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_ad_recycler_view.xml" value="0.209375" />
         <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
         <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_native.xml" value="0.209375" />
+        <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/activity_recycler_view_native_ad.xml" value="0.209375" />
+        <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/item_layout.xml" value="0.209375" />
         <entry key="..\:/Android Studio Test Projects/MoPubADTutorial/app/src/main/res/layout/native_ad_layout.xml" value="0.209375" />
       </map>
     </option>
